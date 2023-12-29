@@ -2,7 +2,6 @@ import { headers } from "next/headers";
 import { WebhookReceiver } from "livekit-server-sdk";
 
 import { db } from "@/lib/db";
-import { auth } from "@clerk/nextjs";
 
 const receiver = new WebhookReceiver(
 	process.env.LIVEKIT_API_KEY!,
