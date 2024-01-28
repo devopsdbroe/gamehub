@@ -1,5 +1,5 @@
 import { Suspense } from "react";
-import { Results, ResultsSkeleton } from "./_components/Results";
+import { Results, ResultsSkeleton } from "./_components/results";
 
 export default function Home() {
 	return (
