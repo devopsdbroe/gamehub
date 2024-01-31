@@ -5,8 +5,8 @@ import { useDebounce } from "usehooks-ts";
 import { useParticipants } from "@livekit/components-react";
 import { LocalParticipant, RemoteParticipant } from "livekit-client";
 
-import { ScrollArea } from "../ui/scroll-area";
-import { Input } from "../ui/input";
+import { ScrollArea } from "@/components/ui/scroll-area";
+import { Input } from "@/components/ui/input";
 
 import { CommunityItem } from "./community-item";
 

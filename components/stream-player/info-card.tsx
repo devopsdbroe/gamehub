@@ -3,7 +3,7 @@
 import Image from "next/image";
 
 import { Pencil } from "lucide-react";
-import { Separator } from "../ui/separator";
+import { Separator } from "@/components/ui/separator";
 
 import { InfoModal } from "./info-modal";
 

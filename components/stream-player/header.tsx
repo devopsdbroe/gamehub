@@ -6,7 +6,7 @@ import {
 	useRemoteParticipant,
 } from "@livekit/components-react";
 
-import { Skeleton } from "../ui/skeleton";
+import { Skeleton } from "@/components/ui/skeleton";
 import { UserAvatar, UserAvatarSkeleton } from "../user-avatar";
 import { VerifiedMark } from "../verified-mark";
 

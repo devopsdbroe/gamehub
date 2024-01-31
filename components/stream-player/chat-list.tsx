@@ -2,7 +2,7 @@
 
 import { ReceivedChatMessage } from "@livekit/components-react";
 
-import { Skeleton } from "../ui/skeleton";
+import { Skeleton } from "@/components/ui/skeleton";
 
 import { ChatMessage } from "./chat-message";
 

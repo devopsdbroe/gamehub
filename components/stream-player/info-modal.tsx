@@ -15,9 +15,9 @@ import {
 	DialogTrigger,
 } from "@/components/ui/dialog";
 import { Hint } from "../hint";
-import { Label } from "../ui/label";
-import { Input } from "../ui/input";
-import { Button } from "../ui/button";
+import { Label } from "@/components/ui/label";
+import { Input } from "@/components/ui/input";
+import { Button } from "@/components/ui/button";
 import { updateStream } from "@/actions/stream";
 import { UploadDropzone } from "@/lib/uploadthing";
 

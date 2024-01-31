@@ -12,8 +12,8 @@ import {
 	DialogTrigger,
 } from "@/components/ui/dialog";
 import { updateUser } from "@/actions/user";
-import { Button } from "../ui/button";
-import { Textarea } from "../ui/textarea";
+import { Button } from "@/components/ui/button";
+import { Textarea } from "@/components/ui/textarea";
 
 interface BioModalProps {
 	initalValue: string | null;

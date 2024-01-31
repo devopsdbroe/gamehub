@@ -8,8 +8,8 @@ import { useRouter } from "next/navigation";
 
 import { cn } from "@/lib/utils";
 import { onFollow, onUnfollow } from "@/actions/follow";
-import { Skeleton } from "../ui/skeleton";
-import { Button } from "../ui/button";
+import { Skeleton } from "@/components/ui/skeleton";
+import { Button } from "@/components/ui/button";
 
 interface ActionsProps {
 	hostIdentity: string;

@@ -3,7 +3,7 @@
 import { MessageSquare, Users } from "lucide-react";
 
 import { Hint } from "../hint";
-import { Button } from "../ui/button";
+import { Button } from "@/components/ui/button";
 import { ChatVariant, useChatSidebar } from "@/store/use-chat-sidebar";
 
 export const VariantToggle = () => {
